@@ -1,0 +1,137 @@
+
+header h1 {
+    font-size: 2.5em; 
+    color: rgb(146, 51, 83); 
+    text-align: center; 
+    margin: 20px 0; 
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); 
+}
+
+header h2 {
+    font-size: 1.5em; 
+    color: rgb(146, 51, 83); 
+    text-align: center; 
+    margin-bottom: 20px; 
+}
+
+body {
+    color: black;
+    background-color: pink;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Helvetica, sans-serif;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+
+a {
+    color: rgb(146, 51, 83);
+    text-decoration: none;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid palevioletred;
+}
+
+.center {
+    text-align: center;
+}
+
+h1 {
+    color:palevioletred;
+}
+
+.container {
+    padding: 0px 50px;
+}
+
+nav a:hover {
+    color:deeppink;
+}
+
+.testimonials {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.testimonial {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: rgb(246, 208, 221);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial h4 {
+    margin: 0;
+    font-size: 1.2em;
+    color:black;
+}
+
+.testimonial p {
+    font-style: italic;
+    color: black;
+}
+
+.testimonial-author {
+    margin-top: 10px;
+    font-weight: bold;
+    color: black;
+}
+
+.how-it-works {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.how-it-works h3 {
+    color: balck;
+    margin-bottom: 15px;
+}
+
+.how-it-works p {
+    color: black;
+    line-height: 1.6;
+}
+
+.how-it-works ol {
+    margin-left: 20px;
+}
+
+.how-it-works li {
+    margin-bottom: 10px;
+    background-color: rgb(246, 208, 221);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.about-us {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.about-us h3 {
+    color: black;
+    margin-bottom: 15px;
+}
+
+.about-us p {
+    color: black
+}
