@@ -2,8 +2,7 @@
 Projeto de um site de aluguel de brinquedos para praticar tecnologias de programação.
 
 ## 📄 Como Usar  
-1. Abra o arquivo `index.html` no navegador.  
-2. Navegue pelas páginas e veja os brinquedos disponíveis.  
+Acesse o site usando o [link](https://pedropizzetti.github.io/maisbrinquedos/)
 
 ## Tecnologias:
 <img 
