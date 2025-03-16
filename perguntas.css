@@ -1,0 +1,97 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f3f9;
+    margin: 0;
+    padding: 20px;
+}
+
+.faq-container {
+    max-width: 300px;
+    margin: auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    color: #d5006d;
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+.faq-item {
+    margin-bottom: 8px;
+}
+
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffeef8;
+    border: 1px solid #e91e63;
+    border-radius: 6px;
+    padding: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    font-size: 0.65em; /* Diminuindo o tamanho da fonte da pergunta */
+}
+
+.faq-question:hover {
+    background-color: #f8bbd0;
+    transform: scale(1.02);
+}
+
+.faq-answer {
+    display: none;
+    padding: 6px;
+    border: 1px solid #e91e63;
+    border-radius: 6px;
+    background-color: #ffeef8;
+    margin-top: 4px;
+    font-size: 0.85em; /* Aumentando o tamanho da fonte da resposta */
+}
+
+.faq-answer.active {
+    display: block;
+}
+
+.arrow {
+    transition: transform 0.3s;
+}
+
+.arrow.rotate {
+    transform: rotate(180deg);
+}
+
+.faq-contact {
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.faq-message {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.whatsapp-button {
+    display: inline-block;
+    background-color: palevioletred;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.whatsapp-button:hover {
+    background-color: rosybrown;
+}
