@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perguntas Frequentes</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="perguntas.css">
+</head>
+<body>
+
+<div class="faq-container">
+    <h1>Perguntas Frequentes</h1>
+
+    <div class="faq-item">
+        <div class="faq-question">
+            <h2>Quanto tempo eu fico com os brinquedos?</h2>
+            <span class="arrow">▼</span>
+        </div>
+        <div class="faq-answer">
+            <p>O aluguel dos brinquedos tem duração de 4 horas. Para eventos realizados em residências ou espaços alugados, 
+                é importante definir com antecedência os horários de montagem e desmontagem. Como atendemos diversas festas
+                 ao longo do dia, a montagem pode ser feita pela manhã, mediante agendamento. Em alguns casos, dependendo da 
+                 logística e do número de eventos, a retirada dos brinquedos pode acontecer no dia seguinte, no início da manhã.
+                  Nosso compromisso é garantir que tudo esteja pronto no horário combinado, 
+                proporcionando uma experiência tranquila e bem organizada para sua comemoração.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">
+            <h2>Como é feito o pagamento?</h2>
+            <span class="arrow">▼</span>
+        </div>
+        <div class="faq-answer">
+            <p>Aceitamos pagamentos via PIX, cartão de débito e cartão de crédito.
+                Caso opte pelo PIX, o pagamento é feito de forma rápida e sem custos adicionais. Já para pagamentos com 
+                cartão de crédito ou débito, há uma taxa adicional, que será repassada ao cliente. 
+                Essa taxa varia conforme o valor e o cliente deverá pagar.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">
+            <h2>O monitor está incluso no valor do brinquedo?</h2>
+            <span class="arrow">▼</span>
+        </div>
+        <div class="faq-answer">
+            <p>O aluguel padrão inclui apenas os brinquedos. No entanto, a presença de monitores pode ser fundamental
+                para garantir a segurança e o bom uso dos brinquedos, especialmente em eventos com muitas crianças.
+                Se precisar de monitores para auxiliar na organização e supervisão durante o evento, informe-se sobre a
+                 disponibilidade desse serviço. Nossos monitores são treinados para garantir que as crianças brinquem com 
+                 segurança e que as regras de uso dos brinquedos sejam respeitadas.
+                O valor do serviço de monitoria é cobrado separadamente e pode variar de acordo 
+                com o tempo do evento e a quantidade de brinquedos alugados. Para mais informações,
+                 entre em contato e consulte a disponibilidade para a sua data! </p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">
+            <h2>Há taxa de deslocamento para a entrega dos brinquedos?</h2>
+            <span class="arrow">▼</span>
+        </div>
+        <div class="faq-answer">
+            <p>Para entregas dentro da cidade de Criciúma, não há cobrança de taxa de deslocamento.
+                Para outras cidades, a taxa de entrega será calculada com base na distância. O valor pode variar
+                 conforme a localização e será informado no momento da reserva. Caso tenha dúvidas sobre o custo de
+                  deslocamento para o seu endereço, 
+                entre em contato e consulte a disponibilidade da entrega para a sua região.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">
+            <h2>Os brinquedos são higienizados?</h2>
+            <span class="arrow">▼</span>
+        </div>
+        <div class="faq-answer">
+            <p>Sim! Todos os brinquedos são higienizados depois de cada locação, 
+                garantindo segurança e limpeza para as crianças.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">
+            <h2>Vocês montam e desmontam os brinquedos?</h2>
+            <span class="arrow">▼</span>
+        </div>
+        <div class="faq-answer">
+            <p>Sim! Nossa equipe se encarrega da montagem e desmontagem dos brinquedos, garantindo que tudo fique seguro e pronto para o uso. O tempo de montagem pode variar 
+                de acordo com a quantidade e o tipo de brinquedos escolhidos.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">
+            <h2>Com quanta antecedência devo fazer a reserva?</h2>
+            <span class="arrow">▼</span>
+        </div>
+        <div class="faq-answer">
+            <p>Recomendamos que a reserva seja feita com o máximo de antecedência possível, especialmente em datas concorridas, 
+                como feriados e finais de semana.
+                 Isso garante a disponibilidade dos brinquedos desejados para o seu evento.</p>
+        </div>
+    </div>
+</div>
+
+<div class="decorative-left"></div>
+<div class="decorative-right"></div>
+
+<script>
+    const questions = document.querySelectorAll('.faq-question');
+    questions.forEach(question => {
+        question.addEventListener('click', () => {
+            const answer = question.nextElementSibling;
+            answer.classList.toggle('active');
+            const arrow = question.querySelector('.arrow');
+            arrow.classList.toggle('rotate');
+        });
+    });
+</script>
+<div class="faq-contact">
+    <p class="faq-message">Tem mais alguma pergunta? Entre em contato com a gente!</p>
+    <a href="https://wa.me/5548988791961" class="whatsapp-button" target="_blank">Fale Conosco no WhatsApp</a>
+</div>
+</body>
+</html>
