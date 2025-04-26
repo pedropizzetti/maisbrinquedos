@@ -7,14 +7,6 @@ Acesse o site usando o [link](https://pedropizzetti.github.io/maisbrinquedos/)
 ## Tecnologias:
 <img 
     align="left" 
-    alt="Python" 
-    title="Python"
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" 
-/>
-<img 
-    align="left" 
     alt="HTML"
     title="HTML" 
     width="30px" 
